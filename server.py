@@ -32,7 +32,7 @@ while True:
                 message = str(item["message"]["text"])
             except:
                 message = None
-            from_ = item["message"]["from"]["id"]
+            from_ = item["message"]["chat"]["id"]
             from_username = item["message"]["from"]["username"]
             reply = make_reply(message, from_username)
             bot.send_message(reply, from_)
@@ -46,6 +46,6 @@ while True:
                             message = str(item["message"]["text"])
                         except:
                             message = None
-                        from_ = item["message"]["from"]["id"]
+                        from_ = item["message"]["chat"]["id"]
                         reply = make_comms(message)
                         bot.send_message(reply, from_)
