@@ -34,6 +34,9 @@ while True:
                 message = None
             from_ = item["message"]["chat"]["id"]
             from_username = item["message"]["from"]["username"]
+            # check if bot is added to group
+            if 'new_chat_participant' in item["message"].keys():
+                pass
             reply = make_reply(message, from_username)
             bot.send_message(reply, from_)
             if reply != None:
