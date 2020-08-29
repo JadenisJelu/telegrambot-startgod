@@ -1,5 +1,13 @@
+Telegram-start-bot
+version 1.3
+
+Last update
+1. Replied chat id [bug fixed]
+2. Username name not found [bug fixed]
+3. Happy birthday reply [feature]
+
 Bug fixes
-1. Update ID only interacts with creator, need reply chat
+1. Reply start in other messages
 
 Features
 1. Create SBA, SBI, SBH
