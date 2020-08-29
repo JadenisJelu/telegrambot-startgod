@@ -58,7 +58,7 @@ while True:
                 pass
 
             # Happy Birthday
-            if 'happy birthday' in message.lower():
+            if isinstance(message, str) and 'happy birthday' in message.lower():
                 bot.send_message(reply_happy_birthday(), from_)                
                
             reply = make_reply(message, from_username)

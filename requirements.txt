@@ -5,6 +5,7 @@ Last update
 1. Replied chat id [bug fixed]
 2. Username name not found [bug fixed]
 3. Happy birthday reply [feature]
+4. Non-text handling [bug fixed]
 
 Bug fixes
 1. Reply start in other messages
