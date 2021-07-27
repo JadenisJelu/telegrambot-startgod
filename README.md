@@ -1,2 +1,3 @@
 # telegrambot-startgod
-Starter identifier
+
+Conversation starter identifier
